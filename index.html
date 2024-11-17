@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Henrique Rodrigues Vitorino</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="Js/index.js"></script>
 </head>
 <body>
     <header>
-
+        <h3>Eduardo Henrique Rodrigues Vitorino</h3>
+        <nav><a href="#" class="navegacao">Sobre Mim</a> <a href="#"class="navegacao">Contato</a> <a href="#" target="_blank" rel="noopener noreferrer"class="navegacao">currículo</a>
+        <a href=""></a></nav>
     </header>
-    <nav></nav>
-    <aside > <img src="imgs/1733-1920-code.png" alt="" id="esquerda"></aside>
-    <aside ><img src="imgs/1733-1920-code.png" alt="" id="direita"></aside>
+   
     <main>
         
         <p></p>
     </main>
     
 </body>
+<script>
+    var a = window.document.body.querySelectorAll("body > header > nav > a.navegacao")
+
+    a.addEventListener("click", clicar);
+    function clicar() {
+        a.style.backgroundColor = 'black'
+
+    }
+
+</script>   
 </html>
