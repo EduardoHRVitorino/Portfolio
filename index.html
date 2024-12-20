@@ -5,29 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Henrique Rodrigues Vitorino</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="Js/index.js"></script>
+
 </head>
 <body>
     <header>
-        <h3>Eduardo Henrique Rodrigues Vitorino</h3>
-        <nav><a href="#" class="navegacao">Sobre Mim</a> <a href="#"class="navegacao">Contato</a> <a href="#" target="_blank" rel="noopener noreferrer"class="navegacao">currículo</a>
-        <a href=""></a></nav>
+        <h1>Eduardo Henrique Rodrigues Vitorino</h1>
+        <nav>
+            <a href="#sobremim">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="/EduardoHenriqueRodriguesVitorino-Currículo.pdf" download="">Currículo</a>
+        </nav>
     </header>
-   
     <main>
-        
-        <p></p>
+        <article>
+            <section id="sobremim">
+                <h2>Olá, sou Eduardo</h2>
+                <p>
+                    Meu nome é Eduardo Henrique, tenho 17 anos e sou um jovem estudante de ensino médio e
+                     programador que sonha em trabalhar em grandes empresas. Sou um programador web que utiliza HTML5, CSS3 e JavaScript 
+                     com conhecimento em JQuery. Entretanto, não sou limitado a esses conhecimentos e sempre busco aprender mais, tenho 
+                     objetivos de aprendizado, por exemplo: 
+                </p>
+                <ul>
+                    <li>aprender o framework React Native;</li> 
+                    <li>aprender o framework React;</li>
+                    <li>aprender o framework BootStrap;</li>
+                    <li>Aprender manipulação de banco de dados utilizando o MySQL;</li>
+                    <li>e muitos outros objetivos;</li>
+
+                </ul>
+                <h2>Certificações</h2>
+                <div id="certificados">
+                    <iframe src="/oficina-uninassau.pdf" frameborder="0" >Curso de desenvolvimento de sistemas</iframe>
+                    <iframe src="/onebitcode-html.pdf" frameborder="0" ></iframe>
+                    <iframe src="/onebitcode-css.pdf" frameborder="0"></iframe>
+                    <iframe src="/onebitcode-js.pdf" frameborder="0"></iframe>
+                </div>
+            </section>
+
+            <section id="projetos">
+
+            </section>
+        </article>
     </main>
     
+    <script src="/Js/jquery-3.7.1.min.js"></script>
+    <script src="/Js/index.js"></script>
 </body>
-<script>
-    var a = window.document.body.querySelectorAll("body > header > nav > a.navegacao")
-
-    a.addEventListener("click", clicar);
-    function clicar() {
-        a.style.backgroundColor = 'black'
-
-    }
-
-</script>   
+  
 </html>
