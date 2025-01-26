@@ -190,12 +190,13 @@ picture#linguagens img{
     }
 }
 /*habilidade*/
+/*Projetos*/
 div.alinharlado > p {
-    width: 40%;
+    width: 100%;
 }
 div#projeto1 > div.alinharlado {
     display: flex;
-    gap: 350px;
+    gap: 200px;
 }
 
 div#projeto1 > div.alinharlado iframe{
@@ -249,3 +250,33 @@ div#projeto1 a {
         width: 200px; height: 200px;
     }
 }
+div#projeto2 > div.alinharlado {
+    gap: 100px;
+}
+div#projeto2 > div.alinharlado iframe{
+    width: 700px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1.5px solid white;
+ 
+}
+div#projeto2  > div.alinharlado  p {
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+section#projetos a {
+    color: rgb(0, 140, 255);
+}
+@media(max-width: 680px){
+    div#projeto2 > div.alinharlado {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    div#projeto2 > div.alinharlado iframe{
+        width: 400px;
+        height: 150px;
+    }
+}
+/*Projetos*/
