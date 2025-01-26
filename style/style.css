@@ -268,7 +268,7 @@ div#projeto2  > div.alinharlado  p {
 section#projetos a {
     color: rgb(0, 140, 255);
 }
-@media(max-width: 680px){
+@media(max-width: 685px){
     div#projeto2 > div.alinharlado {
         display: block;
         margin: auto;
@@ -277,6 +277,20 @@ section#projetos a {
     div#projeto2 > div.alinharlado iframe{
         width: 400px;
         height: 150px;
+    }
+    div.alinharlado > p {
+        width: 100%;
+        font-size: 10pt;    
+    }
+}
+@media(max-width: 540px){
+    div#projeto2 > div.alinharlado iframe {
+        width: 300px; height: 150px;
+    }
+}
+@media(max-width: 400px){
+    div#projeto2 > div.alinharlado iframe {
+        width: 200px; height: 200px;
     }
 }
 /*Projetos*/
