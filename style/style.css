@@ -262,6 +262,7 @@ div#projeto2 > div.alinharlado iframe{
 }
 div#projeto2  > div.alinharlado  p {
     width: 100%;
+    height: 80%;
     display: block;
 }
 section#projetos a {
