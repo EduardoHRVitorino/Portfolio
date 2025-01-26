@@ -262,7 +262,6 @@ div#projeto2 > div.alinharlado iframe{
 }
 div#projeto2  > div.alinharlado  p {
     width: 100%;
-    height: 100px;
     display: block;
 }
 section#projetos a {
@@ -280,7 +279,7 @@ section#projetos a {
     }
     div.alinharlado > p {
         width: 100%; 
-        height: 80px;
+
         font-size: 10pt;    
     }
 }
@@ -290,7 +289,7 @@ section#projetos a {
     }
     div.alinharlado > p {
         width: 100%;
-        height: 60px;
+
         font-size: 10pt;    
     }
 }
